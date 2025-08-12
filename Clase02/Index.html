@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cara CSS</title>
+<style>
+  body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+  }
+
+  .cara {
+    width: 200px;
+    height: 200px;
+    background: #ffcc99;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+
+  /* Ojos */
+  .ojo {
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+  }
+  .ojo.izq { left: 50px; }
+  .ojo.der { right: 50px; }
+
+  /* Boca cerrada */
+  .boca {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+
+  /* Abrir boca */
+  .cara:hover .boca {
+    height: 50px;
+    border-radius: 0 0 50% 50%;
+  }
+</style>
+</head>
+<body>
+    
+    <div class="cara">
+        <div class="ojo izq"></div>
+          <div class="ojo der"></div>
+        <div class="boca"></div>
+    </div>
+
+</body>
+</html>
