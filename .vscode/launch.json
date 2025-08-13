@@ -1,0 +1,16 @@
+
+// Esta configuración permite abrir automáticamente en Chrome cualquier 
+// archivo HTML que esté abierto en el editor de VS Code.
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "OpenHTML",
+      "file": "${file}",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
