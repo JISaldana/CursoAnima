@@ -1,0 +1,24 @@
+body {
+    background: black;
+    color: whitesmoke;
+    /*Estilos para el texto*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.img{
+    display: block;
+    margin: 0 auto;
+
+    width: 600px;
+    height: auto;
+    margin-top: 50px;
+    border: 5px solid white;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+p {
+    font-size: 18px;;
+}

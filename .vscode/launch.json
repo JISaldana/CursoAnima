@@ -1,6 +1,6 @@
 
 // Esta configuración permite abrir automáticamente en Chrome cualquier 
-// archivo HTML que esté abierto en el editor de VS Code.
+// archivo HTML que forme parte de este Workspace.
 
 {
   "version": "0.2.0",
