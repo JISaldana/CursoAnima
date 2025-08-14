@@ -1,0 +1,49 @@
+body{
+    align-content: center;
+}
+
+.flag {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: auto;
+}
+
+.primerasFranjas {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.alineadoSolar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cuadradoBlanco {
+    display: flex;
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+.cuadradoBlanco h1 {
+    font-size: 125px;
+    position: absolute;
+    align-self: center;
+}
+.franjaCeleste {
+    background-color: skyblue;
+    width: 100%;
+    height: 50px;
+}
+.franjaBlanca {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+}
