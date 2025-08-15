@@ -1,15 +1,16 @@
 
-// Esta configuración permite abrir automáticamente en Chrome cualquier 
+// Esta configuración permite abrir automáticamente en Edge cualquier 
 // archivo HTML que forme parte de este Workspace.
 
 {
   "version": "0.2.0",
   "configurations": [
+    
     {
-      "type": "chrome",
+      "type": "edge",
       "request": "launch",
-      "name": "OpenHTML",
-      "file": "${file}",
+      "name": "Abrir HTML en Edge",
+      "url": "file://${file}",
       "webRoot": "${workspaceFolder}"
     }
   ]
