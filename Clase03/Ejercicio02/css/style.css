@@ -19,7 +19,5 @@ h1 {
     height: 25%;
     /* Estilo del contenedor */
     background-color: whitesmoke;
-    margin: 10px;
-    padding: 10px;
     border: 20px solid orange;
 }
