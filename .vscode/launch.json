@@ -7,9 +7,9 @@
   "configurations": [
     
     {
-      "type": "edge",
+      "type": "chrome",
       "request": "launch",
-      "name": "Abrir HTML en Edge",
+      "name": "Abrir HTML en Chrome",
       "url": "file://${file}",
       "webRoot": "${workspaceFolder}"
     }

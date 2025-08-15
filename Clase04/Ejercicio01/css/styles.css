@@ -1,21 +1,28 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh;
     margin: 0;
+    height: 100vh;
+    background-color: white;
+    position: relative; /* Con esto los elementos con Position:Absolute se pueden mover en el body (NO TOCAR) */
+}
+
+
+.galeria {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 20px; 
 }
 
 .contenedor {
     position: relative;
-    display: inline-block;
 }
 
 .contenedor img {
-    width: 400px;
-    height: auto;
+    width: 300px;      
+    height: 200px;     
+    object-fit: cover; 
     display: block;
 }
 
@@ -24,16 +31,21 @@ body {
     top: 10px;
     left: 10px;
     background-color: yellow;
-    padding: 5px 10px;
+    padding: 5px 12px;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-size: 14px;
 }
 
 .texto {
-    background-color: #f44336;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 400px;
+    background: linear-gradient(to bottom, #ff5722, #f44336);
     color: white;
     padding: 15px;
-    max-width: 400px;
     border: 1px solid black;
     font-size: 14px;
+    line-height: 1.5;
 }
