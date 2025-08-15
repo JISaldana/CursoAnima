@@ -1,6 +1,7 @@
 body{
     background: black;
-    color: black
+    color: black;
+    margin: 0%;
 }
 .pencil {
     /* Altura ajustada al font size */
@@ -20,4 +21,5 @@ h1 {
     /* Estilo del contenedor */
     background-color: whitesmoke;
     border: 20px solid orange;
+    padding: 10px;
 }
