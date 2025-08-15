@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Div siempre arriba */
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #122472;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: #000000 0px 4px 6px -1px, #0000009a 0px 2px 4px -1px;
+}
+
+.header h1 {
+    color: white;
+    margin: 0;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenido p {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
