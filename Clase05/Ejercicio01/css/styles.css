@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+header {
+  background: linear-gradient(to right, #111, #333);
+  padding: 15px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+
+main {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  gap: 30px;
+}
+
+.cuadrado {
+  text-align: center;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  background-color: #f4511e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: 0 auto 10px auto;
+}
